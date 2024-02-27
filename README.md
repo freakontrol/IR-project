@@ -42,7 +42,11 @@ For example, a valid query would look like this:
 term1 && term2 || term3 &&! term4 ...
 ```
 ## Query Evaluation Duration <a name="query-evaluation-duration"></a>
-Just before the results of a query are displayed, the system will print the duration taken to evaluate that particular query. This helps you understand how long it takes for the IR system to process and return the given query's results.
+Just before the results of a query are displayed, the system will print the duration taken to evaluate that particular query. This helps you understand how long it takes for the IR system to process and return the given query's results.  
+
+<img src="img/plot2.png" alt="image" height="300"/>
 
 ## Memory Usage <a name="memory-usage"></a>
-To monitor memory usage while running the program, use the `/usr/bin/time -v` command as mentioned in [Running the Code](#running-the-code). It will provide you with information about maximum resident set size (maximum memory used) during the execution of the code.
+To monitor memory usage while running the program, use the `/usr/bin/time -v` command as mentioned in [Running the Code](#running-the-code). It will provide you with information about maximum resident set size (maximum memory used) during the execution of the code.  
+
+<img src="img/plot.png" alt="image" height="300"/>
