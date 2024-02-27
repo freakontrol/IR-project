@@ -1,7 +1,7 @@
 #ifndef INDEX_H
 #define INDEX_H
 
-//#define COMPRESS
+#define COMPRESS
 
 
 #include <fstream>
